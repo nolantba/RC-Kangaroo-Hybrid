@@ -1,0 +1,191 @@
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<PUZZLE #75>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+nataanii@DESKTOP-N9818B6:/mnt/e/RC_Kangaroo_Hybrid$  ./rckangaroo -range 75 -start 4000000000000000000 -pubkey 03726b574f193e374686d8e12bc6e4142adeb06770e0a2856f5e4ad89f66044755 -dp 13 -gpu 012 -cpu 0
+********************************************************************************
+*        RCKangaroo v3.2 Hybrid+SOTA+  (c) 2024 RetiredCoder + fmg75          *
+*        GPU+CPU Hybrid with SOTA+ Optimizations (+10-30% performance)       *
+*        Nataanii's Optimized Fork - SOTA+ Bug Fix & Enhancements             *
+********************************************************************************
+
+This software is free and open-source: https://github.com/RetiredC
+It demonstrates fast GPU implementation of SOTA Kangaroo method for solving ECDLP
+Linux version
+CUDA devices: 3, CUDA driver/runtime: 13.0/12.6
+GPU 0: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 3, L2 size: 2304 KB
+GPU 1: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 4, L2 size: 2304 KB
+GPU 2: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 132, L2 size: 2304 KB
+Total GPUs for work: 3
+
+MAIN MODE
+
+Solving public key
+X: 726B574F193E374686D8E12BC6E4142ADEB06770E0A2856F5E4AD89F66044755
+Y: 9B15322E6707090A4DB3F09C7E6632A26DB57F03EB07B40979FC01C827E1B0A3
+Offset: 0000000000000000000000000000000000000000000004000000000000000000
+
+Solving point: Range 75 bits, DP 13, start...
+SOTA method, estimated ops: 2^37.702, RAM for DPs: 1.204 GB. DP and GPU overheads not included!
+Total kangaroos: 2752512 (GPU: 2752512, CPU: 0)
+Estimated DPs per kangaroo: 9.913 ✓ Good DP balance
+Jump tables: J1=2^38 (Teske-optimized), J2=2^65, J3=2^63 (SOTA escape)
+GPU 0: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU 1: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU 2: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU Monitor: Initialized for 3 GPUs
+Thermal Policy: BALANCED (< 80°C)
+GPUs started...
+MAIN: Speed: 5914 MKeys/s, Err: 0, DPs: 5436K/27285K, Time: 0d:00h:00m:10s/0d:00h:00m:37s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU Performance Monitor
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU 0: 1.06 GK/s │  51°C │ 168W │ 100% util │ PCI   3
+GPU 1: 1.06 GK/s │  57°C │ 169W │ 100% util │ PCI   4
+GPU 2: 1.07 GK/s │  50°C │ 169W │ 100% util │ PCI 132
+CPU:   0.0 MK/s
+
+Total: 3.19 GK/s │ Avg Temp: 52°C │ Power: 506W
+K-Factor: 0.236 ✓ (ahead of schedule)
+DPs: 4831966 / 27285551 (17.7%) │ Buffer: 0 / 2097152 (0.0%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MAIN: Speed: 6246 MKeys/s, Err: 0, DPs: 11479K/27285K, Time: 0d:00h:00m:20s/0d:00h:00m:35s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU Performance Monitor
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU 0: 2.20 GK/s │  54°C │ 168W │ 100% util │ PCI   3
+GPU 1: 2.20 GK/s │  59°C │ 168W │ 100% util │ PCI   4
+GPU 2: 2.21 GK/s │  52°C │ 168W │ 100% util │ PCI 132
+CPU:   0.0 MK/s
+
+Total: 6.61 GK/s │ Avg Temp: 55°C │ Power: 504W
+
+K-Factor: 0.532 ✓ (ahead of schedule)
+DPs: 10873568 / 27285551 (39.9%) │ Buffer: 0 / 2097152 (0.0%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Stopping work ...
+Point solved, K: 1.020 (with DP and GPU overheads)
+
+
+PRIVATE KEY: 0000000000000000000000000000000000000000000004C5CE114686A1336E07
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<PUZZLE #80>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+nataanii@DESKTOP-N9818B6:/mnt/e/RC_Kangaroo_Hybrid$  ./rckangaroo -range 80 -start 80000000000000000000 -pubkey 037e1238f7b1ce757df94faa9a2eb261bf0aeb9f84dbf81212104e78931c2a19dc -dp 14 -gpu 012 -cpu 0
+*******************************************************************************
+*        RCKangaroo v3.2 Hybrid+SOTA+  (c) 2024 RetiredCoder + fmg75          *
+*        GPU+CPU Hybrid with SOTA+ Optimizations (+10-30% performance)        *
+*        Nataanii's Optimized Fork - SOTA+ Bug Fix & Enhancements             *
+*******************************************************************************
+
+This software is free and open-source: https://github.com/RetiredC
+It demonstrates fast GPU implementation of SOTA Kangaroo method for solving ECDLP
+Linux version
+CUDA devices: 3, CUDA driver/runtime: 13.0/12.6
+GPU 0: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 3, L2 size: 2304 KB
+GPU 1: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 4, L2 size: 2304 KB
+GPU 2: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 132, L2 size: 2304 KB
+Total GPUs for work: 3
+
+MAIN MODE
+
+Solving public key
+X: 7E1238F7B1CE757DF94FAA9A2EB261BF0AEB9F84DBF81212104E78931C2A19DC
+Y: 625C7118F1C29CB92D28CE0DFD0DC58144FE5572EFFEBC7FEE54C4FCE3333A6B
+Offset: 0000000000000000000000000000000000000000000080000000000000000000
+
+Solving point: Range 80 bits, DP 14, start...
+SOTA method, estimated ops: 2^40.202, RAM for DPs: 3.062 GB. DP and GPU overheads not included!
+Total kangaroos: 2752512 (GPU: 2752512, CPU: 0)
+Estimated DPs per kangaroo: 28.038 (Low overhead, but consider lower DP for faster detection)
+Jump tables: J1=2^41 (Teske-optimized), J2=2^70, J3=2^68 (SOTA escape)
+GPU 0: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU 1: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU 2: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU Monitor: Initialized for 3 GPUs
+Thermal Policy: BALANCED (< 80°C)
+GPUs started...
+MAIN: Speed: 5943 MKeys/s, Err: 0, DPs: 2720K/77175K, Time: 0d:00h:00m:10s/0d:00h:03m:32s
+K-Factor: 0.721 ✓ (ahead of schedule)
+DPs: 41680115 / 77175193 (54.0%) │ Buffer: 0 / 2097152 (0.0%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MAIN: Speed: 6510 MKeys/s, Err: 0, DPs: 44900K/77175K, Time: 0d:00h:02m:30s/0d:00h:03m:14s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU Performance Monitor
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU 0: 2.18 GK/s │  60°C │ 168W │  99% util │ PCI   3
+GPU 1: 2.17 GK/s │  64°C │ 168W │  99% util │ PCI   4
+GPU 2: 2.20 GK/s │  56°C │ 168W │ 100% util │ PCI 132
+CPU:   0.0 MK/s
+
+Total: 6.54 GK/s │ Avg Temp: 60°C │ Power: 504W
+
+K-Factor: 0.773 ✓ (ahead of schedule)
+DPs: 44699006 / 77175193 (57.9%) │ Buffer: 0 / 2097152 (0.0%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Stopping work ...
+Point solved, K: 0.909 (with DP and GPU overheads)
+
+
+PRIVATE KEY: 00000000000000000000000000000000000000000000EA1A5C66DCC11B5AD180
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<PUZZLE #85>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+nataanii@DESKTOP-N9818B6:/mnt/e/RC_Kangaroo_Hybrid$ ./rckangaroo -range 85 -start 1000000000000000000000 -pubkey 0329c4574a4fd8c810b7e42a4b398882b381bcd85e40c6883712912d167c83e73a -dp 14 -gpu 012 -cpu 24
+********************************************************************************
+*        RCKangaroo v3.2 Hybrid+SOTA+  (c) 2024 RetiredCoder + fmg75          *
+*        GPU+CPU Hybrid with SOTA+ Optimizations (+10-30% performance)       *
+*        Nataanii's Optimized Fork - SOTA+ Bug Fix & Enhancements             *
+********************************************************************************
+
+This software is free and open-source: https://github.com/RetiredC
+It demonstrates fast GPU implementation of SOTA Kangaroo method for solving ECDLP
+Linux version
+CUDA devices: 3, CUDA driver/runtime: 13.0/12.6
+GPU 0: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 3, L2 size: 2304 KB
+GPU 1: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 4, L2 size: 2304 KB
+GPU 2: NVIDIA GeForce RTX 3060, 12.00 GB, 28 CUs, cap 8.6, PCI 132, L2 size: 2304 KB
+Total GPUs for work: 3
+
+MAIN MODE
+
+Solving public key
+X: 29C4574A4FD8C810B7E42A4B398882B381BCD85E40C6883712912D167C83E73A
+Y: 0E02C3AFD79913AB0961C95F12498F36A72FFA35C93AF27CEE30010FA6B51C53
+Offset: 0000000000000000000000000000000000000000001000000000000000000000
+
+Solving point: Range 85 bits, DP 14, start...
+SOTA method, estimated ops: 2^42.702, RAM for DPs: 16.451 GB. DP and GPU overheads not included!
+Total kangaroos: 2777088 (GPU: 2752512, CPU: 24576)
+Estimated DPs per kangaroo: 157.204 (Low overhead, but consider lower DP for faster detection)
+Jump tables: J1=2^43 (Teske-optimized), J2=2^75, J3=2^73 (SOTA escape)
+GPU 0: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU 1: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU 2: allocated 5157 MB, 917504 kangaroos. OldGpuMode: Yes
+GPU Monitor: Initialized for 3 GPUs
+Thermal Policy: BALANCED (< 80°C)
+GPUs started...
+CPU workers started (24 threads)...
+MAIN: Speed: 5718 MKeys/s, Err: 0, DPs: 2615K/436568K, Time: 0d:00h:00m:10s/0d:00h:20m:50s
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MAIN: Speed: 6956 MKeys/s, Err: 0, DPs: 240841K/436568K, Time: 0d:00h:13m:25s/0d:00h:17m:08s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU Performance Monitor
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GPU 0: 2.18 GK/s │  60°C │ 168W │ 100% util │ PCI   3
+GPU 1: 2.18 GK/s │  65°C │ 167W │ 100% util │ PCI   4
+GPU 2: 2.20 GK/s │  57°C │ 169W │ 100% util │ PCI 132
+CPU:   9.4 MK/s
+
+Total: 6.57 GK/s │ Avg Temp: 60°C │ Power: 504W
+
+K-Factor: 0.782 ✓ (ahead of schedule)
+DPs: 240538854 / 436568821 (55.1%) │ Buffer: 8 / 2097152 (0.0%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Stopping work ...
+Point solved, K: 0.907 (with DP and GPU overheads)
+
+
+PRIVATE KEY: 00000000000000000000000000000000000000000011720C4F018D51B8CEBBA8
+
+
